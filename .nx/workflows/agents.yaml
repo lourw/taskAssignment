@@ -1,6 +1,6 @@
 launch-templates:
   linux-large:
-    resource-class: 'docker_linux_amd64/small'
+    resource-class: 'docker_linux_amd64/large'
     image: 'ubuntu22.04-node20.9-v1'
     init-steps:
       - name: Git checkout step
@@ -17,7 +17,7 @@ launch-templates:
         script: |
           echo "Hello World \n Hello World \n Hellow World \n ------------------"
   linux-medium:
-    resource-class: 'docker_linux_amd64/small'
+    resource-class: 'docker_linux_amd64/medium'
     image: 'ubuntu22.04-node20.9-v1'
     init-steps:
       - name: Git checkout step
