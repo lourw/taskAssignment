@@ -66,6 +66,6 @@
       }
     }
   },
-  "nxCloudUrl": "https://staging.nx.app",
-  "nxCloudAccessToken": "N2Y4OGYxYTMtZDI4Yi00MDZjLTg2ZjctNzllYzMyMWZhOGVmfHJlYWQtd3JpdGU="
+  "nxCloudUrl": "http://localhost:4203",
+  "nxCloudAccessToken": "ZjQ2ZjU1YTMtZTQ4MS00MzRkLTljNzQtNjNiNGZjNTA5MzBjfHJlYWQtd3JpdGU="
 }
