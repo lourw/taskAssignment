@@ -1,9 +1,4 @@
 distribute-on:
-  small-changeset: 1 linux-small, 1 linux-medium
-  medium-changeset: 1 linux-medium, 1 linux-small
-  large-changeset: 1 linux-large, 1 linux-medium, 1 linux-small
-
-task-assignments:
-  - project: taskAssignment
-    target: lint
-    runs-on: linux-small
+  small-changeset: 2 linux-small, 1 linux-medium
+  medium-changeset: 2 linux-medium, 1 linux-small
+  large-changeset: 1 linux-large, 2 linux-medium
