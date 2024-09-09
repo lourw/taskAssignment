@@ -65,7 +65,5 @@
         "linter": "eslint"
       }
     }
-  },
-  "nxCloudUrl": "http://localhost:4203",
-  "nxCloudAccessToken": "Mzc4YTZjMzEtYmU3Yi00NTIxLWIwNjgtMTM4NjAwNzE5Nzk4fHJlYWQtd3JpdGU="
+  }
 }
