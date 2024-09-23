@@ -1,4 +1,0 @@
-distribute-on:
-  small-changeset: 2 linux-small, 1 linux-medium
-  medium-changeset: 2 linux-small, 1 linux-medium
-  large-changeset: 1 linux-large, 2 linux-medium

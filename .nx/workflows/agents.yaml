@@ -16,6 +16,8 @@ launch-templates:
       - name: Run print
         script: |
           echo "Hello World \n Hello World \n Hellow World \n ------------------"
+      - name : Sleep
+        script: sleep 3000
   linux-medium:
     resource-class: 'docker_linux_amd64/medium'
     image: 'ubuntu22.04-node20.9-v1'
