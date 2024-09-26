@@ -1,0 +1,8 @@
+distribute-on:
+  default: 2 linux-small-js; 1 linux-medium-js
+
+assignment-rules:
+  - project: taskAssignment
+    target: build
+    runsOn:
+      - linux-medium-js
