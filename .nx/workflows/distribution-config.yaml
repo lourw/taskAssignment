@@ -1,0 +1,2 @@
+distribute-on:
+  default: 2 linux-small; 1 linux-medium
