@@ -1,0 +1,11 @@
+assignment-rules:
+  - target: lint
+    project: taskAssignment
+    runs-on:
+      - template1
+  - target: build
+    runs-on:
+      - template3
+  - project: taskAssignment-e2e
+    runs-on:
+      - template2
