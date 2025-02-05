@@ -1,2 +1,22 @@
 distribute-on:
   default: 2 linux-small; 1 linux-medium
+
+assignment-rules:
+  - projects:
+      - app*
+    runs-on:
+      - linux-medium
+
+  - target: lint
+    run-on:
+      - agent: linux-medium
+        parallelism: 5
+
+  - targets:
+      - lint*
+    run-on:
+      - agent: linux-medium
+
+  - project: hello
+    run-on:
+      - agent: linux-small
