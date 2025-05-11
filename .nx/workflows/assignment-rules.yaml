@@ -1,0 +1,7 @@
+assignment-rules:
+  - project: hello
+    run-on:
+      - agent: "hello"
+        parallelism: 3
+    runs-on:
+      - lunux-small

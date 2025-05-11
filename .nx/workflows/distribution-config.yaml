@@ -1,8 +1,15 @@
 distribute-on:
   default: 1 linux-small
 
+assignment-rules:
+  - projects:
+    - "*"
+    run-on:
+      - agent: "linux-small"
+        parallelism: 3
+
 distribution-rules:
   - projects:
       - "*"
     arguments:
-      parallel: 5
+      parallel: false
