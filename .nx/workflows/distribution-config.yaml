@@ -13,3 +13,5 @@ distribution-rules:
       - "*"
     arguments:
       parallel: false
+    flaky-retry-config:
+      enabled: true
