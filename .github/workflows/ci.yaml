@@ -13,6 +13,8 @@ permissions:
 
 jobs:
   main:
+    env:
+      NX_VERBOSE_LOGGING: true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
