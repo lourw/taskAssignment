@@ -13,6 +13,8 @@ permissions:
 
 jobs:
   main:
+    env:
+      NX_VERBOSE_LOGGING: true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,4 +32,6 @@ jobs:
       - uses: nrwl/nx-set-shas@v4
 
       - run: npx nx-cloud record -- nx format:check
-      - run: npx nx affected -t lint test build e2e-ci
+      - run: npx nx affected -t lint
+      - run: npx nx affected -t test
+      - run: npx nx affected -t build
