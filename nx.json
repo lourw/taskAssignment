@@ -49,6 +49,7 @@
       "dependsOn": ["^build"]
     }
   },
+  "bustCache": 1,
   "generators": {
     "@nx/react": {
       "application": {
