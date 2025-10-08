@@ -66,6 +66,6 @@
       }
     }
   },
-  "nxCloudUrl": "https://ghost-apt-liger.ngrok-free.app",
-  "nxCloudAccessToken": "Zjc5ZTU3MTctODgxMC00ZmJjLWI3YzItZGQ4NmY2Y2ZkMTk5fHJlYWQtd3JpdGU="
+  "nxCloudUrl": "http://localhost:4203",
+  "nxCloudAccessToken": "YzZiOTNhNDYtZGIxMi00ZDdkLTljOTAtODJiMjMxMjQxYzVhfHJlYWQtd3JpdGU="
 }
