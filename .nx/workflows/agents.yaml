@@ -37,6 +37,10 @@ launch-templates:
           echo "sleep"
   linux-small:
     resource-class: 'docker_linux_arm64/medium'
+    env:
+      NX_CLOUD_METRICS_DIRECTORY: '/var/upload/metrics'
+      NX_CLOUD_ENABLE_METRICS_COLLECTION: 'true'
+      NX_VERBOSE_LOGGING: 'true'
     image: 'ubuntu22.04-node20.11-v4'
     init-steps:
       - name: Git checkout step
