@@ -36,8 +36,8 @@ launch-templates:
         script: |
           echo "sleep"
   linux-small:
-    resource-class: 'docker_linux_amd64/small'
-    image: 'ubuntu22.04-node20.9-v1'
+    resource-class: 'docker_linux_arm64/medium'
+    image: 'ubuntu22.04-node20.11-v4'
     init-steps:
       - name: Git checkout step
         uses: 'nrwl/nx-cloud-workflows/v4/workflow-steps/checkout/main.yaml'
