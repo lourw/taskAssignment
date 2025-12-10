@@ -36,7 +36,7 @@ launch-templates:
         script: |
           echo "sleep"
   linux-small:
-    resource-class: 'docker_linux_arm64/medium'
+    resource-class: 'docker_linux_amd64/medium'
     env:
       NX_CLOUD_METRICS_DIRECTORY: '/var/upload/metrics'
       NX_CLOUD_ENABLE_METRICS_COLLECTION: 'true'
