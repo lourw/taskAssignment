@@ -67,6 +67,6 @@
       }
     }
   },
-  "nxCloudUrl": "http://localhost:4203",
-  "nxCloudId": "68efd050fb579a3e85b7e534"
+  "nxCloudUrl": "https://ghost-apt-liger.ngrok-free.app",
+  "nxCloudId": "6939b9664a1478202480f2ad"
 }
