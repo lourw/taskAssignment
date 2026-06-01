@@ -68,5 +68,6 @@
     }
   },
   "nxCloudUrl": "https://cloud.nx.app",
-  "nxCloudId": "6a1d95047a692f41aaf6455e"
+  "nxCloudId": "6a1d95047a692f41aaf6455e",
+  "bust": 1
 }
