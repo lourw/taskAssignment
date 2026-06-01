@@ -24,7 +24,7 @@ jobs:
           cache: 'npm'
       # This line enables distribution
       # The "--stop-agents-after" is optional, but allows idle agents to shut down once the "e2e-ci" targets have been requested
-      - run: npx nx-cloud start-ci-run --distribute-on="1 linux-small-js" --stop-agents-after=build
+      - run: npx nx-cloud start-ci-run --distribute-on="3 linux-small-js" --stop-agents-after=build
       - run: npm ci --legacy-peer-deps
 
       - uses: nrwl/nx-set-shas@v4
