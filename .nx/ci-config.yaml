@@ -1,6 +1,14 @@
 dte:
   distribute-on: 1 linux-small-js
 
+assignment-rules:
+  - project: hello
+    run-on:
+      - agent: "hello"
+        parallelism: 3
+    runs-on:
+      - lunux-small
+
 lifecycle:
   stop-after:
     - build
