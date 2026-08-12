@@ -1,0 +1,6 @@
+dte:
+  distribute-on: 1 linux-small-js
+
+lifecycle:
+  stop-after:
+    - build
