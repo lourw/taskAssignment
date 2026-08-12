@@ -1,11 +1,10 @@
 dte:
   distribute-on: 1 linux-small-js
-
-assignment-rules:
-  - target:
-      - lint
-    runs-on:
-      - agent: linux-small-js
+  assignment-rules:
+    - target:
+        - lint
+      runs-on:
+        - agent: linux-small-js
 
 lifecycle:
   stop-after:
