@@ -2,12 +2,10 @@ dte:
   distribute-on: 1 linux-small-js
 
 assignment-rules:
-  - project: hello
-    run-on:
-      - agent: "hello"
-        parallelism: 3
+  - target:
+      - lint
     runs-on:
-      - lunux-small
+      - agent: linux-small-js
 
 lifecycle:
   stop-after:
