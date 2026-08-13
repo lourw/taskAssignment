@@ -1,5 +1,7 @@
 dte:
-  distribute-on: 2 linux-small-js
+  distribute-on:
+    small-changeset: 1 linux-small-js
+    large-changeset: 2 linux-small-js
   assignment-rules:
     - targets:
         - lint
