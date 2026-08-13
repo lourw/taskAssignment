@@ -1,10 +1,9 @@
 dte:
-  distribute-on:
-    default: 1 linux-small-js
+  distribute-on: 2 linux-small-js
   assignment-rules:
-    - target:
+    - targets:
         - lint
-      runs-on:
+      run-on:
         - agent: linux-small-js
 
 lifecycle:
