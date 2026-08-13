@@ -1,5 +1,6 @@
 dte:
-  distribute-on: 1 linux-small-js
+  distribute-on:
+    default: 1 linux-small-js
   assignment-rules:
     - target:
         - lint
